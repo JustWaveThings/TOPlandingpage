@@ -95,6 +95,7 @@ img {
 .section2 {
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 
 .section2heading {
@@ -145,6 +146,11 @@ img {
 
 .section3 {
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
 }
 
 .quote {
@@ -153,7 +159,7 @@ img {
     color: #1F2937;
     font-weight: lighter;
     font-style: italic;
-    
+    display: flex;
 }
 
 .attr {
@@ -161,6 +167,7 @@ img {
     font-size: 36px;
     color: #1F2937;
     font-weight: bolder;
+    align-self: flex-end;
 }
 
 .section4 {
