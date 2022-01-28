@@ -5,14 +5,24 @@
     font-size: 24px;
     color: #F9FAF8;
     background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0px;
 }
 
 .headerlinks {
-    
+    display: flex;
 }
 
 ul {
     list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+    padding: 10px;
 }
 
 a {
@@ -25,10 +35,16 @@ a {
 
 .section1 {
     background-color: #1F2937;
+    display: flex;
+   
 }
 
 .lefts1 {
-
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    justify-content: space-evenly;
+    flex: 1;
 }
 
 .title {
@@ -36,23 +52,44 @@ a {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    display: flex;
+    
 }
 
 .subtext {
     font-family: Roboto, sans-serif;
     font-size: 18px;
-    color: #e5e7eb
+    color: #e5e7eb;
+    display: flex;
+    align-items: flex-start;
 }
 
-.button1 {
+button {
     font-family: Roboto, sans-serif;
     font-size: 18px;
-    color: #3882F6
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    align-self: flex-start;
+    padding: 8px 16px;
 }
 
 .right1 {
-
+    display: flex;
+    padding: 10px;
+    flex: 1;
 }
+
+.singleimg {
+    display: flex;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+}
+
 
 .section2 {
 
@@ -65,27 +102,37 @@ a {
 }
 
 .imgcontainer {
-
+ 
 }
 
 .imgsq {
-
+    
 }
 
 .text {
-
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    color: #1F2937
 }
 
 .section3 {
-
+    background-color: #E5E7EB;
 }
 
 .quote {
-
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+    
 }
 
 .attr {
-
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
 }
 
 .section4 {
@@ -101,7 +148,8 @@ a {
 }
 
 .call {
-
+    background-color: #3882F6;
+    font-family: Roboto, sans-serif;
 }
 
 .signuptext {
@@ -113,9 +161,12 @@ a {
 }
 
 .button2 {
-
+    background-color: #3882F6;
+    font-family: Roboto, sans-serif;
+    color: #F9FAF8;
 }
 
 .section5 {
     background: #eee;
+    
 }
