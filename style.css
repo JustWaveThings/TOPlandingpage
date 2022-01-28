@@ -1,21 +1,30 @@
-.header {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+.header {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    color: #F9FAF8;
+    background-color: #1F2937;
 }
 
 .headerlinks {
-
+    
 }
 
 ul {
-
+    list-style: none;
 }
 
 a {
-
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color: #e5e7eb
+  
 }
 
 .section1 {
-
+    background-color: #1F2937;
 }
 
 .lefts1 {
@@ -23,15 +32,22 @@ a {
 }
 
 .title {
-
+    font-family: Roboto, sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
 }
 
 .subtext {
-
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color: #e5e7eb
 }
 
 .button1 {
-
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color: #3882F6
 }
 
 .right1 {
@@ -43,7 +59,9 @@ a {
 }
 
 .section2heading {
-
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    color: #1F2937
 }
 
 .imgcontainer {
@@ -75,7 +93,7 @@ a {
 }
 
 .bluewrapper {
-
+    background-color: #3882F6
 }
 
 .leftwrap {
@@ -99,5 +117,5 @@ a {
 }
 
 .section5 {
-    
+    background: #eee;
 }
