@@ -6,6 +6,9 @@ End of flexbox foundations assignment.
 
 Wave Image Credits --- Left to right 
 
+  "The Great Wave off Kanagawa" - Katsushika Hokusai <a href="https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa">from Wikipedia </a>
+
+
 Img 1  - -   Image by <a href="https://pixabay.com/users/yeskay1211-6332528/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2836300">Sathish kumar Periyasamy</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2836300">Pixabay</a>
 
 
